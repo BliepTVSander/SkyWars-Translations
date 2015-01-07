@@ -1,0 +1,126 @@
+messages-version: 4
+
+commands.join.description: 'Staat op de lijst voor het volgende potje!'
+commands.join.confirmation: '&3Je bwnt de rij gejoined.'
+commands.join.already-queued: '&4Je staat al op de lijst!.'
+commands.join.in-game: '&4Je kan nu niet joinen, je bent al gejoined.'
+
+commands.leave.description: 'Verlaat de rij of het potje waar je nu in bent!'
+commands.leave.removed-from-queue: '&3Je staat niet langer op de lijst.'
+commands.leave.removed-from-game: '&3Je hebt het spel gevlucht.'
+commands.leave.not-in-any: '&4Je was niet op de lijst.'
+
+commands.setlobby.description: 'Zet een lobby op de plaats waar jij nu staat'
+commands.setlobby.confirmation: '&3De lobby is nu op de plaats waar jij stond.'
+commands.setlobby.in-game: '&4Je kan nu geen lobby zetten, je bent in-game.'
+
+commands.setportal.description: 'Zet een portal op de plaats waar jij nu staat'
+commands.setportal.confirmation: '&3Het portaal is nu op de plaats waar jij stond.'
+commands.setportal.in-game: '&4Je kan nu geen portaal neerzetten, je bent in game.'
+
+commands.delportal.description: 'Verwijdert het laatste portaal dat jij hebt gemaakt.'
+commands.delportal.confirmation: '&3Portaal verwijdert bij %s'
+commands.delportal.error-no-portals: '&4Geen portalen zijn ingesteld!'
+
+commands.cancel.description: 'Annuleert het spel met het gegeven id'
+commands.cancel.argument-not-integer: '&c%s&4 is geen volledig getal!'
+commands.cancel.no-games-with-id: '&4Er zijn geen spellen met het id &c%s&4.'
+commands.cancel.confirmation: '&3Annuleert spel &2%s&3.'
+
+commands.status.description: 'Geeft status op recente spellen'
+commands.status.header: '&9 -- &2SkyWars Status&9 --'
+commands.status.in-queue: '&3In de rij: &2%s'
+commands.status.queue-comma: '&3, &2'
+commands.status.arena-header: '&9 -- &2Recente Arena's&9 --'
+
+commands.version.description: 'Geeft versie'
+commands.version.output: '&3%s versie &2%s &3/ &2%s&3. Gemaakt door &2Dabo Ross'
+
+commands.lobby.description: 'Teleporteert je naar de lobby'
+commands.lobby.confirmation: '&3Teleporteren naar de lobby.'
+commands.lobby.in-game: '&4Je kan nu niet teleporteren naar de lobby, je bent in-game.'
+
+commands.cancelall.description: 'Annuleert alle spellen die nu bezig zijn.'
+commands.cancelall.canceling-game: '&3Annuleert spel &2%s'
+
+commands.report.description: 'Genereert een rapport en uploads het naar gist.github.com, daarna geeft het je een link.'
+commands.report.start: '&3Verzamelt data en dient in'
+commands.report.output: '&3Rapport: &2%s'
+
+commands.forcestart.description: 'Begint gelijk een spel met de mensen in de rij'
+commands.forcestart.not-enough-players: '&4Er moeten op z'n minst 2 mensen in de rij zijn als je het spel eerder wil starten.'
+
+commands.kit.description: 'Selecteer de kit voor het potje'
+commands.kit.no-kits-available: '&4Er zijn geen kits die je kan gebruiken.'
+commands.kit.unavailable-kits: '&3Niet beschikbare kits: &2%s'
+commands.kit.unknown-kit: '&4Onbekende kit &c%s&4.'
+commands.kit.not-enough-money: '&4Je hebt niet genoeg %1$s om de kit &c%2$s&4 te kopen. Je moet &c%3$s&4 meer %1$s.'
+commands.kit.no-access: '&4 Je hebt geen toegang tot kit &c%s&4.'
+commands.kit.chose-kit: '&3Je gebruikt nu kit &2%s&3.'
+commands.kit.chose-kit-with-cost: '&3Je gebruikt nu kit &2%1$s&3. Deze kit kost je &2%2$s&3 per ronde.'
+commands.kit.how-to-remove: '&3Je kan &2/sw kit remove&3 gebruiken om de kit te verwijderen die je nu gebruikt.'
+commands.kit.removed-kit: '&3Je bent niet langer meer met kits in dit potje.'
+commands.kit.no-kit-removed: '&3Je had nog geen kit gekozen, geen kit verwijdert.'
+commands.kit.current-kit: '&3Je gebruikt nu kit &2%s&3.'
+commands.kit.current-kit-with-cost: '&3Je gebruikt nu kit &2%1$s&3. Deze kit kost je &2%2$s&3 per ronde.'
+
+setup-commands.start.description: 'Begint een nieuwe arena setup maar verwijdert dan wel de reset wat je hebt gedaan en niet hebt opgeslagen.'
+setup-commands.start.argument-name: 'Naam van de arena'
+setup-commands.start.confirmation: '&3Begonnen met de arena de maken met de naam: &2%s&3.'
+setup-commands.start.one-argument: '&4Geef alstublieft maar een argument.'
+
+setup-commands.setpos1.description: 'Zet het eerste punt voor het selecteren van de arena waar je nu kijkt.'
+setup-commands.setpos1.pos2-in-other-world: '&4Uitschakelen van de tweede positie omdat je in een andere wereld bent.'
+setup-commands.setpos1.confirmation: '&3Punt 1 gezet.'
+
+setup-commands.setpos2.description: 'Zet het eerste punt voor het selecteren van de arena waar je nu kijkt.'
+setup-commands.setpos2.pos1-in-other-world: '&4Uitschakelen van de tweede positie omdat je in een andere wereld bent.'
+setup-commands.setpos2.confirmation: '&3Punt 2 gezet.'
+
+setup-commands.addspawn.description: 'Voegt een nieuwe spawn toe waar jij nu staat'
+setup-commands.addspawn.confirmation: '&3Voegt nieuwe spawn bij &2%s&3.'
+
+setup-commands.save.description: 'Slaat de arena setup op naar een bestand'
+setup-commands.save.saving: '&3Slaat de arena op.'
+setup-commands.save.saved: '&3Arena opgeslagen.'
+
+top-commands.main.description: 'Hoofdcommando van SkyWars'
+top-commands.setup.description: 'Setupcommando van SkyWars'
+
+generic-command-message.too-many-parameters: '&4Te veel argumenten.'
+generic-command-message.not-enough-parameters: '&4Te weining argumenten'
+
+messages.removed-from-queue-because-death: '&3Je bent van de lijst verwijdert omdat je dood bent gegaan'
+messages.no-clue-what-command: '&4SkyWars heeft geen idee wat &c%s&4 is.'
+messages.not-fully-enabled: '&4Niet volledig toegestaan.'
+
+messages.economy-reward.win: '&3Je hebt &2%s&3 kregen omdat je SkyWars hebt gewonnen.'
+messages.economy-reward.kill: '&3Je hebt &2%1$s&3 gekregen omdat je &2%2$s&3 hebt gekilld.'
+
+messages.kits.kit-list: '&3Kits die je kan gebruiken: &2%s'
+messages.kits.kit-list-comma: '&3, &2'
+messages.kits.kit-list-item-cost: '%1$s &8(&3kost: &2%2$s&8)'
+messages.kits.choose-a-kit: '&3Gebruik &2/sw kit &8<&2Naam&8>&3 om een kit te kiezen.'
+messages.kits.applied-kit: '&3Je hebt kit &2%s&3 toegepast in dit potje.'
+messages.kits.applied-kit-with-cost: '&3Je hebt kit &2%1$s&3 in dit potje, dit kost je: &3%2$s&2.'
+messages.kits.not-enough-money: '&3Je hebt niet genoeg punten om kit &2%s&3 te kopen.'
+messages.kits.no-permission: '&3Je hebt geen permissies om kit &2%s&3 te gebruiken.'
+
+messages.in-game: '&4Dat kan je nu niet doen, je bent in een potje.'
+
+messages.report-disabled: '&4Rapportage is uitgeschakeld in & cmain - config.yml & 4 . Verwijder de & c''disable - rapport : true ' ' & 4 lijn naar rapportage mogelijk te maken . Merk op dat wanneer ingeschakeld, SkyWars meldt alleen als deze opdracht wordt gebruikt , nooit op de achtergrond..'
+
+game.death.killed-by-player-and-void: '&2%s&a heeft &2%s&a in de void gegooid!'
+game.death.killed-by-void: '&2%s&a is in de void gevallen!'
+game.death.killed-by-player: '&2%s&a heeft &2%s&a gekilled!'
+game.death.killed-by-environment: '&2%s&a is dood!'
+game.death.forfeited-while-attacked: '&2%s&a heeft verloren van &2%s&a!'
+game.death.forfeited: '&2%s&a verloren!'
+
+game.winning.single-won: '&2%s&a heeft SkyWars gewonnen!'
+game.winning.multi-won: '&2%s&a hebben SkyWars gewonnen!'
+game.winning.multi-won-comma: '&a, &2'
+game.winning.none-won: '&aSkyWars heeft in dit potje geen winnaars gehad!'
+
+game.starting.game-starting: '&aHet potje begint met: &2%s&a!'
+game.starting.game-starting-comma: '&a, &2'
